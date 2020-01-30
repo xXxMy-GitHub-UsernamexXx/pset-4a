@@ -7,7 +7,6 @@ let lowerBound = null;
 let upperBound = null;
 
 do {
-
         lowerBound = Number(readlineSync.question("\nLower bound: "));
         upperBound = Number(readlineSync.question("Upper bound: "));
 
