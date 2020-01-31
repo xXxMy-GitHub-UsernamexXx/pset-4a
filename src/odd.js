@@ -37,4 +37,4 @@ while (positiveInteger > 0) {
 
 output = output + ".";
 
-console.log(output);
+console.log("\n" + output.toLocaleString() + ".");

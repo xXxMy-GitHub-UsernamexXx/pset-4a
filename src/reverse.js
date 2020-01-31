@@ -34,4 +34,4 @@ while (positiveInteger > 0) {
 
 }
 
-console.log(output);
+console.log(\noutput);
