@@ -34,6 +34,4 @@ average = Number(total / x);
 average = Number(average * 1000);
 average = Math.floor(average);
 average = Number(average / 1000);
-average = average + "";
-
 console.log("\n" + average.toLocaleString() + ".");
