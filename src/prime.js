@@ -5,6 +5,8 @@ const MAX = Number.MAX_SAFE_INTEGER;
 
 let nonNegativeInteger;
 
+console.log("\n ");
+
 do {
         nonNegativeInteger = Number(readlineSync.question("\nNon-negative integer: "));
 } while (nonNegativeInteger > MAX

@@ -7,8 +7,10 @@ let positiveInteger;
 let x = 1;
 let y = 1;
 
+console.log("\n ");
+
 do {
-        positiveInteger = Number(readlineSync.question("\nPositive integer: "));
+        positiveInteger = Number(readlineSync.question("Positive integer: "));
 } while (positiveInteger > MAX
         || positiveInteger < MIN
         || Number.isNaN(positiveInteger)

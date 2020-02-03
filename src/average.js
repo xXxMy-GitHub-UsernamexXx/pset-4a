@@ -8,8 +8,10 @@ let x = 1;
 let average = 0;
 let nonNegativeInteger;
 
+console.log("\n ");
+
 do {
-        nonNegativeInteger = Number(readlineSync.question("\nNon-negative integer: "));
+        nonNegativeInteger = Number(readlineSync.question("Non-negative integer: "));
 
         if (x === 1 && (nonNegativeInteger < MIN)) {
                 nonNegativeInteger = 0;

@@ -5,8 +5,10 @@ const MAX = Number.MAX_SAFE_INTEGER;
 
 let positiveInteger;
 
+console.log("\n ");
+
 do {
-        positiveInteger = Number(readlineSync.question("\nPositive integer: "));
+        positiveInteger = Number(readlineSync.question("Positive integer: "));
 
 } while (positiveInteger > MAX
         || positiveInteger < MIN
@@ -34,4 +36,4 @@ while (positiveInteger > 0) {
 
 }
 
-console.log(\noutput);
+console.log("\n" + output);
