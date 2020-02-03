@@ -13,16 +13,16 @@ do {
         || Number.isInteger(nonNegativeInteger) == false);
 
 if ((nonNegativeInteger == 0) || (nonNegativeInteger == 1)) {
-        console.log("Not prime.");
+        console.log("\nNot prime.");
 } else if (nonNegativeInteger == 2) {
-        console.log("Prime.");
+        console.log("\nPrime.");
 } else {
         for (var i = 2; i < nonNegativeInteger; i++) {
                 if (Number.isInteger(nonNegativeInteger / i) == true) {
-                        console.log("Not prime.");
+                        console.log("\nNot prime.");
                         break;
                 } else if ((Number.isInteger(nonNegativeInteger / i) == false) && (Number(i) + 1 == nonNegativeInteger)) {
-                        console.log("Prime.");
+                        console.log("\nPrime.");
                 }
         }
 }
